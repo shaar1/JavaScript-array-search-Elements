@@ -310,7 +310,7 @@ document.getElementById("special").innerHTML =
     " My Special Friends Is: " + "<span style='color:#F00'>" + friends[specialFriends] + "</span> ;"
 
     */
-
+/*
 var friends = [
     "Ommar",
     "Yara",
@@ -336,3 +336,33 @@ document.getElementById("all").innerHTML =
 document.getElementById("special").innerHTML =
 
     " My Special Friends Is: " + "<span style='color:#F00'>" + friends[specialFriends] + "</span> ;"
+   
+    */
+
+
+   var friends = [
+    "Ommar",
+    "Yara",
+    "Hassan",
+    "Hosam",
+    "Mohamad",
+    "Mahmoud",
+    "Ali",
+    "Yara",
+    "Toni",
+    "Antoanit"
+];
+var specialFriends = friends.indexOf("Yara", 3);
+
+console.log(specialFriends);
+
+console.log(friends[specialFriends]);
+
+document.getElementById("all").innerHTML =
+
+    " My Friends Are: " + friends;
+
+document.getElementById("special").innerHTML =
+
+    " My Special Friends Is: " + "<span style='color:#F00'>" + friends[specialFriends] + "</span> ;"
+   
